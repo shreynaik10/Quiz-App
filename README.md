@@ -18,3 +18,7 @@ Quiz Page
 <img width="1440" alt="Screen Shot 2022-10-17 at 3 32 23 PM" src="https://user-images.githubusercontent.com/33474725/196267761-3a85dd2f-1a65-4274-8e64-5cfbaae0005d.png">
 <img width="1440" alt="Screen Shot 2022-10-17 at 3 32 31 PM" src="https://user-images.githubusercontent.com/33474725/196267783-fde968a7-d1cc-40d4-9906-f3e21e0ea89d.png">
 <img width="1440" alt="Screen Shot 2022-10-17 at 3 33 00 PM" src="https://user-images.githubusercontent.com/33474725/196267810-946c3cf0-b2b3-47f7-a471-0e579a5b40c5.png">
+
+Highscores
+----------
+<img width="1440" alt="Screen Shot 2022-10-17 at 3 43 57 PM" src="https://user-images.githubusercontent.com/33474725/196268261-8eb6d9c2-7cf6-440a-8e97-f8faa6b1385f.png">
