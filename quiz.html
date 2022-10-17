@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quiz App</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div id="welcomediv">
+            <button id="back" onclick="backclicked()">&#8592;</button>
+            <h1>QuizMaster</h1>
+            <div id="nicknamediv">
+                <div id = "readydiv">Ready for the quiz?  </div>
+                <form id="nicknameform"> 
+                    <input id="nickname" type="text" required placeholder="Enter your name"> <button type="submit" id="submitbutton" >Begin</button>
+                </form>
+            </div>
+
+        </div>
+
+        <div id="quizdiv" class="hideit">
+            <div id="clock">
+                <span id="seconds">10</span>
+            </div>
+            <div id="question">
+                <p>This is the first question </p>
+            </div>
+
+            <div id="answersgrid">
+                <div id="optionA" class="options">
+                    <p>This is the first option </p>
+                </div>
+
+                <div id="optionB" class="options">
+                    <p>This is the 2nd option </p>
+                </div>
+
+                <div id="optionC" class="options">
+                    <p>This is the 3rd option </p>
+                </div>
+
+                <div id="optionD" class="options">
+                    <p>This is the 4th option </p>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="quizover" class="hideit" >
+            <h3>Congratulations</h3>
+
+            <div id="morebuttons">
+                <button id="viewhighscore">View Scores</button>
+                <button id="restartnewquiz">Take Quiz again</button>
+            </div>
+
+            <div id="leaderboard" class="hideit">
+                <!-- <h4>Scores</h4> -->
+                <table id="scoretable">
+                    <tr>
+                        <th>
+                            Name
+                        </th>
+                        <th>
+                            Score
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            Shrey
+                        </td>
+                        <td>
+                            8
+                        </td>
+                
+                    </tr>
+                    <tr>
+                        <td>
+                            kjvsdfvssfv
+                        </td>
+                        <td>
+                            5
+                        </td>
+                
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+
+    </body>
+</html>

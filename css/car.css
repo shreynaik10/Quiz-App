@@ -1,0 +1,78 @@
+body{
+    background-image: url('../images/space.jpg');
+	background-size: cover;
+
+}
+
+.container{
+	width:540px;
+	margin:40px auto;
+	overflow:auto;
+}
+
+.inner{
+	width:500px;
+	height:300px;
+	position:relative;
+	overflow:hidden;
+	float:left;
+	padding:3px;
+	border:#666 solid 1px;
+	cursor: pointer;
+}
+
+.inner img{
+	display:none;
+	width:500px;
+	height:300px;
+}
+
+.inner img.active{
+	display:inline-block;
+}
+
+.prev,.next{
+	float:left;
+	margin-top:130px;
+	cursor: pointer;
+}
+
+.prev{
+	position:relative;
+	margin-right:-45px;
+	z-index:100;
+}
+
+.next{
+	position:relative;
+	margin-left:-45px;
+	z-index:100;
+}
+
+h1{
+	position: relative;
+	text-align: center;
+	color: white;
+	font-size: 5.0em;
+}
+
+h2{
+	position: relative;
+	text-align: center;
+	color: white;
+	margin: 0;
+	font-size: 1.5em;
+}
+
+.inner img:hover{
+    filter: brightness(50%);
+}
+
+#titletype{
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	text-transform: capitalize;
+	font-weight: bold;
+
+}
